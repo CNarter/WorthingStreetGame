@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worthing Street Game - Project Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles to supplement Tailwind */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1595589624237-640a5957d66e?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .gradient-overlay {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-900">
+                    Nancy Carter <span class="font-light text-blue-600">| Portfolio</span>
+                </div>
+                <ul class="hidden md:flex space-x-8 font-medium">
+                    <li><a href="#project" class="hover:text-blue-600 transition-colors">The Project</a></li>
+                    <li><a href="#visuals" class="hover:text-blue-600 transition-colors">Visuals</a></li>
+                    <li><a href="#process" class="hover:text-blue-600 transition-colors">Process</a></li>
+                    <li><a href="#learnings" class="hover:text-blue-600 transition-colors">Learnings</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg text-white h-[60vh] md:h-[80vh] flex items-end">
+            <div class="gradient-overlay w-full h-full flex items-end">
+                <div class="container mx-auto px-6 py-12 md:py-24 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Worthing Street Game</h1>
+                    <p class="mt-4 text-lg md:text-xl max-w-3xl text-gray-200">
+                        An interactive adventure through the seaside town of Worthing. Complete challenges, discover landmarks, and uncover local history.
+                    </p>
+                    <p class="mt-2 text-sm text-gray-400">Project by Nancy Carter, 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Project Section -->
+        <section id="project" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold tracking-tight">Discover Worthing's Hidden Stories</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">This project's objective is to create an enjoyable, interactive street game, playable on any mobile device over a small, accessible, mapped area in central Worthing.</p>
+                </div>
+                
+                <div class="mt-16 grid md:grid-cols-3 gap-12 text-center">
+                    <!-- Card 1: Explore the Map -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-blue-100 text-blue-600 p-4 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <h3 class="mt-4 text-xl font-bold">Explore the Map</h3>
+                        <p class="mt-2 text-gray-600">Navigate through an interactive map of Worthing. Discover key landmarks and hidden locations as you explore.</p>
+                    </div>
+                    <!-- Card 2: Complete Challenges -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-blue-100 text-blue-600 p-4 rounded-full">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"></path><rect x="4" y="4" width="16" height="16" rx="2"></rect><path d="M16 12h-4h4"></path><path d="M12 16v-4"></path></svg>
+                        </div>
+                        <h3 class="mt-4 text-xl font-bold">Complete Challenges</h3>
+                        <p class="mt-2 text-gray-600">Test your knowledge and observation skills with location-based challenges. Earn achievements as you progress.</p>
+                    </div>
+                    <!-- Card 3: Discover History -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-blue-100 text-blue-600 p-4 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+                        <h3 class="mt-4 text-xl font-bold">Discover History</h3>
+                        <p class="mt-2 text-gray-600">Learn about Worthing's rich history and culture. Uncover stories and facts about the town's significant landmarks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visuals & Gameplay Section -->
+        <section id="visuals" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight">Visual Design & Gameplay</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">A clean, intuitive interface designed to be user-friendly and accessible for everyone.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+                    <!-- App Mockup -->
+                    <div class="lg:col-span-1 flex justify-center">
+                       <div class="w-full max-w-sm mx-auto bg-white rounded-3xl shadow-2xl p-4 border-4 border-gray-200">
+                           <div class="aspect-[9/19.5] bg-blue-500 rounded-2xl p-6 text-white text-center flex flex-col justify-between" style="background: linear-gradient(180deg, #3a7bd5 0%, #00d2ff 100%);">
+                               <div>
+                                   <h3 class="text-2xl font-bold mt-8">Discover Worthing's Hidden Stories</h3>
+                                   <p class="mt-4 text-sm opacity-80">An interactive adventure through the seaside town.</p>
+                               </div>
+                               <div class="space-y-4">
+                                   <button class="w-full bg-white text-blue-600 font-bold py-3 rounded-xl shadow-lg">Start Exploring</button>
+                                   <button class="w-full bg-white/20 text-white font-bold py-3 rounded-xl">View Challenges</button>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+
+                    <!-- Clue Example -->
+                    <div class="lg:col-span-2 bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-4">An Example Clue</h3>
+                        <p class="italic text-gray-600 mb-6">"With many seats, but no legs to walk. Over the sea but will never sail away. I carry many faces, but wear none of my own. Big and red in life, but fragile and breakable here. What number am I?"</p>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-gray-100 p-4 rounded-lg">
+                                <p><span class="font-bold">Hint:</span> Pretty panels on the pier, look for the iconic London Transport - inspect closely!</p>
+                            </div>
+                            <div class="bg-green-100 text-green-800 p-4 rounded-lg">
+                                <p><span class="font-bold">Answer:</span> You got it! The answer is 19! It's found on a stained glass panel on the pier.</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex justify-center">
+                           <img src="https://storage.googleapis.com/maker-me/uploads/2024/06/20/4f2a71d87f5ac0b0c679a976378e932b.png" alt="Stained glass panel with number 19" class="rounded-lg shadow-md max-w-xs w-full" onerror="this.onerror=null;this.src='https://placehold.co/400x300/e2e8f0/4a5568?text=Answer+Image';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Process Section -->
+        <section id="process" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight">Project Planning & Process</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Managed as a solo project, emphasizing agile response, stakeholder engagement, and thorough risk analysis.</p>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <!-- Timeline -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Project Timeline</h3>
+                        <div class="relative border-l-2 border-blue-200 pl-8 space-y-10">
+                            <!-- Timeline Item 1 -->
+                            <div class="relative">
+                                <div class="absolute -left-[42px] top-1 h-4 w-4 rounded-full bg-blue-500"></div>
+                                <p class="font-semibold text-blue-600">May - June 2025</p>
+                                <h4 class="font-bold mt-1">Discovery & Planning</h4>
+                                <p class="text-gray-600 text-sm">Define route, photograph clues, identify tech, and finalize costs.</p>
+                            </div>
+                             <!-- Timeline Item 2 -->
+                            <div class="relative">
+                                <div class="absolute -left-[42px] top-1 h-4 w-4 rounded-full bg-blue-500"></div>
+                                <p class="font-semibold text-blue-600">August 2025</p>
+                                <h4 class="font-bold mt-1">Prototype Build</h4>
+                                <p class="text-gray-600 text-sm">Build a test version for potential sponsors.</p>
+                            </div>
+                             <!-- Timeline Item 3 -->
+                            <div class="relative">
+                                <div class="absolute -left-[42px] top-1 h-4 w-4 rounded-full bg-blue-500"></div>
+                                <p class="font-semibold text-blue-600">Winter 2025</p>
+                                <h4 class="font-bold mt-1">Testing & Iteration</h4>
+                                <p class="text-gray-600 text-sm">Extensive play-testing and feedback consideration.</p>
+                            </div>
+                             <!-- Timeline Item 4 -->
+                            <div class="relative">
+                                <div class="absolute -left-[42px] top-1 h-4 w-4 rounded-full bg-blue-500"></div>
+                                <p class="font-semibold text-blue-600">Spring 2026</p>
+                                <h4 class="font-bold mt-1">Sponsorship & Launch Prep</h4>
+                                <p class="text-gray-600 text-sm">Approach local businesses and prepare marketing campaign for summer launch.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map & Stakeholders -->
+                    <div class="space-y-8">
+                         <div>
+                            <h3 class="text-2xl font-bold mb-4">Game Route Map</h3>
+                             <img src="https://storage.googleapis.com/maker-me/uploads/2024/06/20/387498c25381ebf2a67e43689f07449c.png" alt="Map of the Worthing Street Game route" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/4a5568?text=Game+Map';">
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">Stakeholder Analysis</h4>
+                            <img src="https://storage.googleapis.com/maker-me/uploads/2024/06/20/862dd61917f69910c2c31c9ff85a1197.png" alt="Stakeholder map showing power vs interest" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/4a5568?text=Stakeholder+Map';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Lessons Learned Section -->
+        <section id="learnings" class="py-16 md:py-24 bg-blue-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl font-bold tracking-tight">Key Lessons Learned</h2>
+                 <blockquote class="mt-8 max-w-3xl mx-auto text-xl md:text-2xl font-light italic">
+                     "The nebulous nature of a project without a budget and run by a single person is challenging. The key learning point is to start much smaller, with well-defined limitations."
+                 </blockquote>
+
+                 <div class="mt-10 max-w-3xl mx-auto bg-white/10 p-6 rounded-lg text-left">
+                     <h4 class="font-bold text-lg mb-2">Refined Approach:</h4>
+                     <ul class="list-disc list-inside space-y-2 text-blue-100">
+                         <li>Create a simple game prototype to generate interest.</li>
+                         <li>Focus on three working clue journeys with yes/no/hint trees.</li>
+                         <li>Include one example of a mocked-up sponsor opportunity.</li>
+                         <li>Specifically exclude branding, marketing, and full development from the initial scope.</li>
+                     </ul>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <h3 class="text-2xl font-bold">Nancy Carter</h3>
+            <p class="mt-2 text-gray-400">Project Management & Digital Design</p>
+            <div class="mt-4">
+                <p>Thank you for viewing my project.</p>
+            </div>
+             <div class="mt-6 border-t border-gray-700 pt-6 text-sm text-gray-500">
+                <p>&copy; 2025 Nancy Carter. All Rights Reserved.</p>
+             </div>
+        </div>
+    </footer>
+
+</body>
+</html>
